@@ -1,0 +1,188 @@
+main{
+	margin-top: 20px;
+}
+.user{
+	border:1px solid #ccc;
+	border-radius: 3px;
+	overflow: hidden;
+    box-sizing:border-box;
+  -moz-box-sizing:border-box; /* Firefox */
+  -webkit-box-sizing:border-box; /* Safari */
+}
+.base{
+	width: 100%;
+}
+.base .userImg{
+	width: 30%;
+	height: 270px;
+	padding: 10px;
+	float: left;
+	overflow: hidden;
+}
+.userImg img{
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+}
+.base .userBase{
+	width: 68%;
+	overflow: hidden;
+	float: right;
+	padding-left: 10px;
+}
+
+.userBase ul{
+	width: 100%;
+}
+.userBase ul li{
+	width: 45%;
+	line-height: 25px;
+	height: 25px;
+}
+.userBase ul li span{
+	width: 45px;
+	text-align: right;
+	display: inline-block;
+}
+.userBase .sendLetter,.userAlbums,.details{
+	width: 100%;
+	padding-right: 5%;
+    box-sizing:border-box;
+  -moz-box-sizing:border-box; /* Firefox */
+  -webkit-box-sizing:border-box; /* Safari */
+}
+.sendLetter textarea{
+	width: 100%;
+	padding: 5px;
+}
+.sendLetter .publish-btn{
+	width: 90px;
+	background: #6fa2ee;
+	color: #fff;
+}
+
+@media screen and (max-width: 425px){
+	.base .userImg{
+		width:100%;
+		height:185px;
+	}
+	.base .userBase{
+		width: 100%;
+	}
+}
+.user .title{
+	position: relative;
+}
+.user .title2{
+	position: relative;
+}
+.user .title span{
+	position: absolute;
+	left: 0;
+	top: 14px;
+	width: 80px;
+	text-align: center;
+	background: #fff;
+}
+.user .title2 span{
+	position: absolute;
+	left: 0;
+	top: 14px;
+	width: 100px;
+	text-align: center;
+	background: #fff;
+}
+.details ul{
+	width: 100%;
+	overflow: hidden;
+}
+.details ul li{
+	width: 45%;
+	height: 25px;
+	line-height: 25px;
+
+}
+.details ul li span{
+	width: 100px;
+	display: inline-block;
+	text-align: right;
+}
+.userAlbums{
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.userAlbums .thumbnail{
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+.thumbnail img{
+	height: 100px;
+}
+.thumbnail p{
+	text-align: center;
+}
+@media screen and (max-width:625px){
+	.details ul li{
+		width: 100%;
+	}
+}
+.maybe{
+	position: relative;
+}
+.maybe span{
+position: absolute;
+    right: 5%;
+    top: 5px;
+}
+.maybe .thumbnail{
+	position: relative;
+	overflow: hidden;
+}
+.maybe .thumbnail p{
+	position: absolute;
+	left: 2.5%;
+	bottom: -100%;
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	width: 95%;
+	text-align: center;
+	height: 25px;
+	line-height: 25px;
+	transition:all 0.5s;
+}
+.maybe .thumbnail:hover p{
+	bottom: 0;
+}
+.form-horizontal img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.form-horizontal .avator{
+	position: relative;
+}
+.avator p{
+width: 75px;
+    height: 30px;
+    line-height: 30px;
+    background: #f2f2f2;
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    top: 40%;
+    z-index: 10;
+    border-radius: 5px;
+}
+.avator p:hover{
+	cursor: pointer;
+}
+.avator input{
+    width: 100px;
+    height: 100px;
+    line-height: 30px;
+    position: absolute;
+    left: 5%;
+    top: 0;
+    z-index: 100;
+    opacity: 0;
+}

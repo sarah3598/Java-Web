@@ -1,0 +1,114 @@
+.photos-box{
+	width: 100%;
+	height: 164px;
+	overflow: hidden;
+	border: 2px solid #fb98af;
+	    box-sizing:border-box;
+  -moz-box-sizing:border-box; /* Firefox */
+  -webkit-box-sizing:border-box; /* Safari */
+	padding: 10px 30px;
+	position: relative;
+}
+.photos-box .glyphicon{
+	width: 30px;
+    font-size: 24px;
+    height: 160px;
+    background: #ebeaea;
+    color: #fff;
+    line-height: 160px;
+    text-align: center;
+}
+.photos-box .glyphicon:hover{
+	background-color: #ccc;
+}
+.photos-box .glyphicon-chevron-left{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.photos-box .glyphicon-chevron-right{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.photos-box .imgs{
+	width: 1000%;
+	height: 140px;
+	box-sizing:border-box;
+  -moz-box-sizing:border-box; /* Firefox */
+  -webkit-box-sizing:border-box; /* Safari */
+  padding: 0 10px;
+	overflow: hidden;
+}
+.imgs li{
+	width: 140px;
+}
+.imgs img{
+	width: 140px;
+	height: 138px;
+	padding: 10px;
+}
+.imgs .active img{
+		border: 1px solid #ccc;
+}
+.big-img{
+	width: 50%;
+	margin: 20px auto;
+	overflow: hidden;
+	position: relative;
+}
+.big-img img{
+	width: 100%;
+}
+.big-img a.glyphicon{
+	position: absolute;
+	top: 43%;
+	font-size: 24px;
+	width: 40px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background: rgba(56,56,56,0.7);
+	color: #fff;
+	trasition:all 0.5s;
+}
+.big-img .glyphicon-arrow-right{
+	right: -50%;
+}
+.big-img .glyphicon-arrow-left{
+	left: -50%;
+}
+.big-img:hover .glyphicon-arrow-right{
+	right:0;
+}
+.big-img:hover .glyphicon-arrow-left{
+	left: 0;
+}
+.big-img .glyphicon:hover{
+	background-color: rgba(204,204,204,0.9);
+}
+.big-img p{
+	width:80px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: rgba(56,56,56,0.7);
+	color: #fff;
+	position: absolute;
+	bottom: -30%;
+	left: 43%;
+	transition:all 0.5s;
+}
+.big-img p i{
+	margin-right: 5px;
+}
+.big-img:hover p{
+	bottom:0%;
+}
+.big-img p:hover{
+	color: #fb98af;
+	background: rgba(217,217,217,0.95);
+}
+p.active{
+	color: #fb98af;
+}
