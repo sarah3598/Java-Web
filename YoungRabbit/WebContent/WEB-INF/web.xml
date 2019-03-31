@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>YoungRabbit</display-name>
+
+	<!--////////////////////company module add by xiaopan/////////////////// -->
+	<!--function:公司员工注册一个账号 add by xiaopan -->
+	<servlet>
+		<servlet-name>company_register</servlet-name>
+		<servlet-class>com.csh.servlet.CompanyUserRegisterServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>company_register</servlet-name>
+		<url-pattern>/company/register</url-pattern>
+	</servlet-mapping>
+
+	<!--function:公司通知管理  add by lizhenyu-->
+    <servlet>
+		<servlet-name>company_notification_manage</servlet-name>
+		<servlet-class>com.csh.servlet.CompanyNotificationManageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+		<servlet-name>company_notification_manage</servlet-name>
+		<url-pattern>/company/notification_manage</url-pattern>
+    </servlet-mapping> 
+	
+	<!--function:公司管理销售 add by lizhenyu -->
+	<servlet>
+		<servlet-name>company_sales_manage</servlet-name>
+		<servlet-class>com.csh.servlet.CompanySalesManageServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>company_sales_manage</servlet-name>
+		<url-pattern>/company/sales_manage</url-pattern>
+	</servlet-mapping>
+
+	<!--function:公司管理管理员 add by lizhenyu -->
+	<servlet>
+		<servlet-name>company_admin_manage</servlet-name>
+		<servlet-class>com.csh.servlet.CompanyAdminManageServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>company_admin_manage</servlet-name>
+		<url-pattern>/company/admin_manage</url-pattern>
+	</servlet-mapping>
+
+	<!--function:公司员工用户登录 add by xiaopan -->
+	<servlet>
+		<servlet-name>company_login</servlet-name>
+		<servlet-class>com.csh.servlet.CompanyUserLoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>company_login</servlet-name>
+		<url-pattern>/company/login</url-pattern>
+	</servlet-mapping>
+
+	<!--function:公司管理用户 add by xiaopan -->
+	<servlet>
+		<servlet-name>company_users_manage</servlet-name>
+		<servlet-class>com.csh.servlet.CompanyUserManageServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>company_users_manage</servlet-name>
+		<url-pattern>/company/users_manage</url-pattern>
+	</servlet-mapping>
+
+	<!--function:公司评级规则管理 add by xiaopan -->
+	<servlet>
+		<servlet-name>company_grade_rule_manage</servlet-name>
+		<servlet-class>com.csh.servlet.CompanyGradeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>company_grade_rule_manage</servlet-name>
+		<url-pattern>/company/grade_rule_manage</url-pattern>
+	</servlet-mapping>
+
+	<!--function:公司员工升级管理 add by lizhenyu -->
+	<servlet>
+		<servlet-name>company_staff_upgrade</servlet-name>
+		<servlet-class>com.csh.servlet.CompanyStaffUpgradeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>company_staff_upgrade</servlet-name>
+		<url-pattern>/company/staff_upgrade</url-pattern>
+	</servlet-mapping>
+	
+	<!--function:公司员工申请管理 add by lizhenyu-->
+  <servlet>
+    <servlet-name>company_apply_admin</servlet-name>
+    <servlet-class>com.csh.servlet.CompanyApplyAdminServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>company_apply_admin</servlet-name>
+    <url-pattern>/company/apply_admin</url-pattern>
+  </servlet-mapping>
+  
+  <!--function:公司员工个人工资管理 add by lizhenyu-->
+  <servlet>
+    <servlet-name>company_sale_salary</servlet-name>
+    <servlet-class>com.csh.servlet.CompanySaleSalaryServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>company_sale_salary</servlet-name>
+    <url-pattern>/company/sale_salary</url-pattern>
+  </servlet-mapping>
+
+	<!--function:上传文件 add by xiaopan -->
+	<servlet>
+		<servlet-name>upload_manage</servlet-name>
+		<servlet-class>com.csh.servlet.UploadHandleServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>upload_manage</servlet-name>
+		<url-pattern>/upload_manage</url-pattern>
+	</servlet-mapping>
+
+	<!--function:公司产品管理 add by xiaopan -->
+	<servlet>
+		<servlet-name>company_product_manage</servlet-name>
+		<servlet-class>com.csh.servlet.CompanyProductServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>company_product_manage</servlet-name>
+		<url-pattern>/company/product_manage</url-pattern>
+	</servlet-mapping>
+
+	<!--function:公司团队管理 add by xiaopan -->
+	<servlet>
+		<servlet-name>company_team_manage</servlet-name>
+		<servlet-class>com.csh.servlet.CompanyTeamManageServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>company_team_manage</servlet-name>
+		<url-pattern>/company/team_manage</url-pattern>
+	</servlet-mapping>
+	
+		<!--function:公司团队管理 add by xiaopan -->
+	<servlet>
+		<servlet-name>company_personal_team_manage</servlet-name>
+		<servlet-class>com.csh.servlet.CompanyPersonalTeamManageServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>company_personal_team_manage</servlet-name>
+		<url-pattern>/company/personal_team_manage</url-pattern>
+	</servlet-mapping>
+
+	<!--function:公司招聘管理 add by lizhenyu -->
+	<servlet>
+		<servlet-name>company_recruiter_manage</servlet-name>
+		<servlet-class>com.csh.servlet.CompanyRecruiterAdminServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>company_recruiter_manage</servlet-name>
+		<url-pattern>/company/recruiter_manage</url-pattern>
+	</servlet-mapping>
+
+	<!--function:公司网站首页图片管理 add by wendy -->
+	<servlet>
+		<servlet-name>company_slide_manage</servlet-name>
+		<servlet-class>com.csh.servlet.SlideServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>company_slide_manage</servlet-name>
+		<url-pattern>/company/slide_manage</url-pattern>
+	</servlet-mapping>
+
+	<!--function:订单管理 add by xiaopan -->
+	<servlet>
+		<servlet-name>company_orders</servlet-name>
+		<servlet-class>com.csh.servlet.CompanyOrdersServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>company_orders</servlet-name>
+		<url-pattern>/company/orders_manage</url-pattern>
+	</servlet-mapping>
+	
+	<!--function:通知列表 add by xiaopan -->
+	<servlet>
+		<servlet-name>company_notice</servlet-name>
+		<servlet-class>com.csh.servlet.CompanyMessageServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>company_notice</servlet-name>
+		<url-pattern>/company/notice</url-pattern>
+	</servlet-mapping>
+
+	<!--function:公司人员信息修改 add by wendy -->
+	<servlet>
+		<servlet-name>company_user_update</servlet-name>
+		<servlet-class>com.csh.servlet.CompanyUserUpdateServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>company_user_update</servlet-name>
+		<url-pattern>/company/user_update</url-pattern>
+	</servlet-mapping>
+
+	<!--function:公司人员销售报表 add by lizhenyu -->
+	<servlet>
+		<servlet-name>company_sale_report</servlet-name>
+		<servlet-class>com.csh.servlet.CompanySaleReportServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>company_sale_report</servlet-name>
+		<url-pattern>/company/sale_report</url-pattern>
+	</servlet-mapping>
+
+	<!--function:公司基本条款管理 add by lizhenyu -->
+	<servlet>
+		<servlet-name>company_basic_rule_manage</servlet-name>
+		<servlet-class>com.csh.servlet.CompanyBasicRuleManageServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>company_basic_rule_manage</servlet-name>
+		<url-pattern>/company/basic_rule_manage</url-pattern>
+	</servlet-mapping>
+
+	<!--function:公司年底奖金管理 add by lizhenyu -->
+	<servlet>
+		<servlet-name>company_year_end_bonus</servlet-name>
+		<servlet-class>com.csh.servlet.CompanyYearEndBonusServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>company_year_end_bonus</servlet-name>
+		<url-pattern>/company/year_end_bonus</url-pattern>
+	</servlet-mapping>
+
+	<!--function:Home Page add by xiaopan -->
+	<servlet>
+		<servlet-name>homepage</servlet-name>
+		<servlet-class>com.csh.servlet.HomePageServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>homepage</servlet-name>
+		<url-pattern>/homepage</url-pattern>
+	</servlet-mapping>
+
+	<!--function:公司员工工资管理 add by lizhenyu -->
+	<servlet>
+		<servlet-name>company_staff_salary_manage</servlet-name>
+		<servlet-class>com.csh.servlet.CompanyStaffSalaryManageServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>company_staff_salary_manage</servlet-name>
+		<url-pattern>/company/staff_salary_manage</url-pattern>
+	</servlet-mapping>
+
+	<!--function:公司员工假期管理 add by lizhenyu -->
+	<servlet>
+		<servlet-name>company_staff_leave_manage</servlet-name>
+		<servlet-class>com.csh.servlet.CompanyStaffLeaveManageServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>company_staff_leave_manage</servlet-name>
+		<url-pattern>/company/staff_leave_manage</url-pattern>
+	</servlet-mapping>
+
+
+
+
+	<!--////////////////////customer module add by xiaopan/////////////////// -->
+	<!--function:顾客登录 add by xiaopan -->
+	<servlet>
+		<servlet-name>customer_login</servlet-name>
+		<servlet-class>com.csh.servlet.CustomerUserLoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>customer_login</servlet-name>
+		<url-pattern>/customer/login</url-pattern>
+	</servlet-mapping>
+
+	<!--function:顾客注册 add by xiaopan -->
+	<servlet>
+		<servlet-name>customer_register</servlet-name>
+		<servlet-class>com.csh.servlet.CustomerUserRegisterServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>customer_register</servlet-name>
+		<url-pattern>/customer/register</url-pattern>
+	</servlet-mapping>
+
+	<!--function:顾客管理 add by lizhenyu -->
+	<servlet>
+		<servlet-name>customer_users_manage</servlet-name>
+		<servlet-class>com.csh.servlet.CustomerUserManageServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>customer_users_manage</servlet-name>
+		<url-pattern>/customer/users_manage</url-pattern>
+	</servlet-mapping>
+
+	<!--function:顾客订单地址管理 add by litai -->
+	<servlet>
+		<servlet-name>customer_user_address</servlet-name>
+		<servlet-class>com.csh.servlet.CustomerUserAddressServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>customer_user_address</servlet-name>
+		<url-pattern>/customer/user_address</url-pattern>
+	</servlet-mapping>
+
+	<!--function:顾客购买商品管理 add by xiaopan -->
+	<servlet>
+		<servlet-name>customer_buy</servlet-name>
+		<servlet-class>com.csh.servlet.CustomerBuyServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>customer_buy</servlet-name>
+		<url-pattern>/customer/buy</url-pattern>
+	</servlet-mapping>
+
+	<!--function:顾客产品显示 add by xiaopan -->
+	<servlet>
+		<servlet-name>customer_product</servlet-name>
+		<servlet-class>com.csh.servlet.CustomerProductServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>customer_product</servlet-name>
+		<url-pattern>/customer/product</url-pattern>
+	</servlet-mapping>
+
+	<!--function:网站首页图片获取 add by wendy -->
+	<servlet>
+		<servlet-name>customer_slide_manage</servlet-name>
+		<servlet-class>com.csh.servlet.CustomerSlideServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>customer_slide_manage</servlet-name>
+		<url-pattern>/customer/slide_manage</url-pattern>
+	</servlet-mapping>
+
+	<!--function:订单管理 add by xiaopan -->
+	<servlet>
+		<servlet-name>customer_orders</servlet-name>
+		<servlet-class>com.csh.servlet.CustomerOrdersServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>customer_orders</servlet-name>
+		<url-pattern>/customer/orders_manage</url-pattern>
+	</servlet-mapping>
+	
+	<!--function:通知列表 add by xiaopan -->
+	<servlet>
+		<servlet-name>customer_notice</servlet-name>
+		<servlet-class>com.csh.servlet.CustomerMessageServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>customer_notice</servlet-name>
+		<url-pattern>/customer/notice</url-pattern>
+	</servlet-mapping>
+	
+	<!--function:公司人员信息修改 add by wendy -->
+	<servlet>
+		<servlet-name>customer_user_update</servlet-name>
+		<servlet-class>com.csh.servlet.CustomerUserUpdateServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>customer_user_update</servlet-name>
+		<url-pattern>/customer/user_update</url-pattern>
+	</servlet-mapping>
+
+	<!--function:注销 add by xiaopan -->
+	<servlet>
+		<servlet-name>logout</servlet-name>
+		<servlet-class>com.csh.servlet.LogoutServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>logout</servlet-name>
+		<url-pattern>/logout</url-pattern>
+	</servlet-mapping>
+
+
+	<!-- 加商品 -->
+	<servlet>
+		<servlet-name>addProduct1</servlet-name>
+		<servlet-class>com.csh.servlet.AddProductServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>addProduct1</servlet-name>
+		<url-pattern>/servlet/AddProduct</url-pattern>
+	</servlet-mapping>
+
+	<!-- web用户报表 -->
+	<servlet>
+		<servlet-name>webreportusers</servlet-name>
+		<servlet-class>com.csh.servlet.WebReportUsersServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>webreportusers</servlet-name>
+		<url-pattern>/servlet/webreportusers</url-pattern>
+	</servlet-mapping>
+
+	<!-- web订单报表 -->
+	<servlet>
+		<servlet-name>webreportorders</servlet-name>
+		<servlet-class>com.csh.servlet.WebReportOrdersServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>webreportorders</servlet-name>
+		<url-pattern>/servlet/webreportorders</url-pattern>
+	</servlet-mapping>
+
+	<!-- 订单管理 -->
+	<servlet>
+		<servlet-name>weborders</servlet-name>
+		<servlet-class>com.csh.servlet.WebOrdersServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>weborders</servlet-name>
+		<url-pattern>/servlet/weborders</url-pattern>
+	</servlet-mapping>
+
+	<!-- 订单管理 -->
+	<!--servlet> <servlet-name>weborders1</servlet-name> <servlet-class>com.csh.servlet.WebOrdersServlet</servlet-class> 
+		</servlet> <servlet-mapping> <servlet-name>weborders1</servlet-name> <url-pattern>/servlet/addorders</url-pattern> 
+		</servlet-mapping -->
+
+	<!--商品管理 -->
+	<servlet>
+		<servlet-name>inventory</servlet-name>
+		<servlet-class>com.csh.servlet.InventoryServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>inventory</servlet-name>
+		<url-pattern>/products/inventory</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<servlet-name>webproducts</servlet-name>
+		<servlet-class>com.csh.servlet.WebProductsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>webproducts</servlet-name>
+		<url-pattern>/servlet/webproducts </url-pattern>
+
+	</servlet-mapping>
+
+
+
+	<!-- 建店铺 -->
+	<servlet>
+		<servlet-name>createShop</servlet-name>
+		<servlet-class>com.csh.servlet.CreateShopServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>createShop</servlet-name>
+		<url-pattern>/servlet/createShop</url-pattern>
+	</servlet-mapping>
+
+
+
+	<!-- 登录 -->
+	<!--servlet> <servlet-name>Login</servlet-name> <servlet-class>com.csh.servlet.LoginServlet</servlet-class> 
+		</servlet> <servlet-mapping> <servlet-name>Login</servlet-name> <url-pattern>/servlet/Login</url-pattern> 
+		</servlet-mapping -->
+
+
+
+
+
+	<!--会议 -->
+	<servlet>
+		<servlet-name>meetinginfo</servlet-name>
+		<servlet-class>com.csh.servlet.MeetingInfoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>meetinginfo</servlet-name>
+		<url-pattern>/servlet/meetinginfo</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>meetingmembers</servlet-name>
+		<servlet-class>com.csh.servlet.MeetingMembersServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>meetingmembers</servlet-name>
+		<url-pattern>/servlet/meetingmembers</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>meetingsignpot</servlet-name>
+		<servlet-class>com.csh.servlet.MeetingSignpotServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>meetingsignpot</servlet-name>
+		<url-pattern>/servlet/meetingsignpot</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>meetingsign</servlet-name>
+		<servlet-class>com.csh.servlet.MeetingSignServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>meetingsign</servlet-name>
+		<url-pattern>/servlet/meetingsign</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>meetingsigncheck</servlet-name>
+		<servlet-class>com.csh.servlet.MeetingSignCheckServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>meetingsigncheck</servlet-name>
+		<url-pattern>/servlet/meetingsigncheck</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>meetingusers</servlet-name>
+		<servlet-class>com.csh.servlet.MeetingUsersServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>meetingusers</servlet-name>
+		<url-pattern>/servlet/meetingusers</url-pattern>
+	</servlet-mapping>
+
+
+	<!--报名 -->
+	<servlet>
+		<servlet-name>enroll</servlet-name>
+		<servlet-class>com.csh.servlet.PersonEnrollServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>enroll</servlet-name>
+		<url-pattern>/servlet/enroll</url-pattern>
+	</servlet-mapping>
+
+	<!--报名 -->
+	<servlet>
+		<servlet-name>validata</servlet-name>
+		<servlet-class>com.csh.servlet.ValidataServlet</servlet-class>
+	</servlet>
+
+	<jsp-config>
+		<jsp-property-group>
+			<url-pattern>*.jsp</url-pattern>
+			<page-encoding>UTF-8</page-encoding>
+		</jsp-property-group>
+	</jsp-config>
+
+	<servlet-mapping>
+		<servlet-name>validata</servlet-name>
+		<url-pattern>/servlet/validata</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>/zh_CN/customer/yb_home_page.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

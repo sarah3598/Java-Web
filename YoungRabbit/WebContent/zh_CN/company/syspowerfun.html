@@ -1,0 +1,37 @@
+<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<base href="<%=basePath%>">
+<title>权限功能</title>
+	<link rel="stylesheet" type="text/css" href="js/easyui/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="js/easyui/themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="js/easyui/demo/demo.css">
+    <link rel="stylesheet" type="text/css" href="css/boxy.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/easyui/jquery.easyui.min.js"></script>
+     <script type="text/javascript" src="js/easyui/locale/easyui-lang-zh_CN.js"></script>
+    <script type="text/javascript" src="js/syspowerfun/syspowerfun.js"></script>
+</head>
+
+<body class="easyui-layout">
+<input type="hidden" id="pubId" name="pubId"/>
+<div region="north" title="" split="true" style="padding:10px;">
+<div class="dialog-toolbar">
+ <a style="float: left;" id="undefined" class="l-btn l-btn-plain" href="javascript:void(0)" onClick="saveaf()"><span class="l-btn-left"><span style="padding-left: 20px;" class="l-btn-text icon-save">保存</span></span></a>
+                    <div class="dialog-tool-separator">
+                    </div>
+ </div>
+ </div>
+<div  region="west" iconCls="icon-reload" title="权限树" split="true" style="width:500px;height:800px;">
+
+		<ul id="ultree" class="easyui-tree" ></ul>
+	</div>
+   <div id="divtable" region="center"  title="功能菜单树" style="background:#fafafa;overflow:hidden">
+   <ul id="ultree1" class="easyui-tree" ></ul>
+  
+   </div> 
+
+</body>
+</html>

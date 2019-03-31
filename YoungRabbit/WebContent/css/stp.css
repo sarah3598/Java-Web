@@ -1,0 +1,119 @@
+* {
+	margin: 0;
+	padding: 0;	
+}
+
+.stpTitle {
+  height: 43px;
+  width: 100%;
+  background-color:#00a0ea;
+  position: relative;
+  list-style:none;
+  box-sizing: border-box;
+/* 
+	border-top: 1px solid #00a0ea;
+*/
+  border-bottom: 1px solid #ccc;
+  border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  -webkit-border-radius: 4px 4px 0 0;
+}
+
+.stpContent {
+  height: calc(100% - 48px);
+  width: 100%;
+/*	
+  overflow-y: auto;
+*/
+  overflow-y: auto;
+  background-color: #f8f8f8;
+	
+  box-sizing: border-box;  
+
+}
+
+.stpPadding {
+  height: 6px;
+  width: 100%;
+  background-color: #EFF3F7;
+  border-radius: 0 0 6px 6px;
+  -moz-border-radius: 0 0 6px 6px;
+  -webkit-border-radius: 0 0 6px 6px;  
+  box-sizing: border-box;  
+}
+
+.ftpPanel {
+	height: 100%;
+	width: 100%;
+	background-color: #EFF3F7;
+}
+
+.panel {
+	height: 100%;
+	width: 100%;
+}
+
+@media screen and (max-device-width: 800px) {
+.stpTitle, .stpPadding {
+	border-radius: 0 0 0 0;
+}
+}
+
+.stpTitle li {
+	float:left;
+	vertical-align: middle;
+	height: 43px;
+	line-height: 43px;
+	font-family: Microsoft Yahei;
+}
+
+.stpName {
+  margin: 0 auto;
+  white-space: normal;
+  word-wrap: break-word; 
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  width: calc(100% - 74px);
+}
+
+.imgleft {
+	position:relative;
+	vertical-align:middle;
+	cursor:pointer;
+	margin-left:12px;
+	height:25px;
+	width:25px;	
+}
+.imgright {
+	position:relative;
+	vertical-align:middle;
+	cursor:pointer;
+	margin-right:12px;
+	height:25px;
+	width:25px;	
+}
+
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+/*
+  width: 0px;
+  height: 0px;
+*/
+  -webkit-border-radius: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background: #6B747A;
+  -webkit-border-radius: 12px;
+}
+::-webkit-scrollbar-track {
+  background: #F5F5F5;
+}
+
+
+

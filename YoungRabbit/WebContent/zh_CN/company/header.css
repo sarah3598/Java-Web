@@ -1,0 +1,165 @@
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	margin:0 auto;
+	font-size:12px;
+	color:#2C2C2C;
+	background:#EEF3FA;
+}
+body,h1,h2,h3,ul,li,form,p,img{
+	border:0;
+}
+button,select,img{
+	margin:0;
+	line-height:normal;
+}
+ul{
+	list-style:none;
+}
+ul li{
+	float:left;
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+a:hover{
+	border:0;
+}
+button{
+	cursor:pointer;
+	border:0;
+}
+
+#nav{
+	width:900px;
+	height:110px;
+	margin:30px auto 0 auto;
+	background:#2FD6F6;
+}
+
+#label{
+	width:900px;
+	height:80px;
+}
+#design{
+	width:900px;
+	height:30px;
+	background:#CDF4FB;
+}
+
+#label ul{
+	margin-left:80px;
+}
+#label ul li{
+	margin-left:5px;
+}
+.label1,.label2,.label3,.label4,.label5,.label6{
+	width:71px;
+	height:80px;
+	margin-right:10px;
+}
+
+.label1 a:link{
+	display:block;
+	width:71px;
+	height:80px;
+	background:url(images/par1.png) no-repeat;
+}
+.label1 a:hover,.label1 a:visited,.label1 a:active{
+	display:block;
+	width:71px;
+	height:80px;
+	background:url(images/par2.png) no-repeat;
+
+}
+
+.label2 a:link{
+	display:block;
+	width:71px;
+	height:80px;
+	background:url(images/E-tic1.png) no-repeat;
+}
+.label2 a:hover,.label2 a:visited,.label2 a:active{
+	display:block;
+	width:71px;
+	height:80px;
+	background:url(images/E-tic2.png) no-repeat;
+}
+
+.label3 a:link{
+	display:block;
+	width:71px;
+	height:80px;
+	background:url(images/sign1.png) no-repeat;
+}
+.label3 a:hover,.label3 a:visited,.label3 a:active{
+	display:block;
+	width:71px;
+	height:80px;
+	background:url(images/sign2.png) no-repeat;
+}
+
+.label4 a:link{
+	display:block;
+	width:71px;
+	height:80px;
+	background:url(images/mess1.png) no-repeat;
+}
+.label4 a:hover,.label4 a:visited,.label4 a:active{
+	display:block;
+	width:71px;
+	height:80px;
+	background:url(images/mess2.png) no-repeat;
+}
+
+.label5 a:link{
+	display:block;
+	width:71px;
+	height:80px;
+	background:url(images/stati1.png) no-repeat;
+}
+.label5 a:hover,.label5 a:visited,.label5 a:active{
+	display:block;
+	width:71px;
+	height:80px;
+	background:url(images/stati2.png) no-repeat;
+}
+
+.label6 a:link{
+	display:block;
+	width:71px;
+	height:80px;
+	background:url(images/kit1.png) no-repeat;
+}
+.label6 a:hover,.label6 a:visited,.label6 a:active{
+	display:block;
+	width:71px;
+	height:80px;
+	background:url(images/kit2.png) no-repeat;
+}
+
+#design ul{
+	line-height:30px;
+}
+#design ul li{
+	font-size:12px;
+	font-weight:bold;
+	width:200px;
+	height:22px;
+}
+#design ul #li3{
+	float:right;
+	width:160px;
+	
+}
+#design ul li img{
+	line-height:20px;
+}
+span{
+	font-size:12px;
+	margin-left:8px;
+}

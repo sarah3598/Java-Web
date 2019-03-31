@@ -1,0 +1,210 @@
+[
+	{
+		"branchName": "1111",
+		"branchNo": 40,
+		"branchType": "2",
+		"id": 40,
+		"treeLevel": "3",
+		"upBranchNo": 30
+	},
+	{
+		"branchName": "发展改革处",
+		"branchNo": 3,
+		"branchType": "0",
+		"id": 3,
+		"treeLevel": "2",
+		"upBranchNo": 1
+	},
+	{
+		"branchName": "组织人事处",
+		"branchNo": 2,
+		"branchType": "0",
+		"id": 2,
+		"treeLevel": "2",
+		"upBranchNo": 1
+	},
+	{
+		"branchName": "国资委",
+		"branchNo": 1,
+		"branchType": "1",
+		"id": 1,
+		"treeLevel": "1",
+		"upBranchNo": 1
+	},
+	{
+		"branchName": "财务处",
+		"branchNo": 4,
+		"branchType": "0",
+		"id": 4,
+		"treeLevel": "2",
+		"upBranchNo": 1
+	},
+	{
+		"branchName": "产权处",
+		"branchNo": 5,
+		"branchType": "0",
+		"id": 5,
+		"treeLevel": "2",
+		"upBranchNo": 1
+	},
+	{
+		"branchName": "机关党务处",
+		"branchNo": 6,
+		"branchType": "0",
+		"id": 6,
+		"treeLevel": "2",
+		"upBranchNo": 1
+	},
+	{
+		"branchName": "企业党群处",
+		"branchNo": 7,
+		"branchType": "0",
+		"id": 7,
+		"treeLevel": "2",
+		"upBranchNo": 1
+	},
+	{
+		"branchName": "综合管理处",
+		"branchNo": 8,
+		"branchType": "0",
+		"id": 8,
+		"treeLevel": "2",
+		"upBranchNo": 1
+	},
+	{
+		"branchName": "纪检监察处",
+		"branchNo": 9,
+		"branchType": "0",
+		"id": 9,
+		"treeLevel": "2",
+		"upBranchNo": 1
+	},
+	{
+		"branchName": "采购招商处",
+		"branchNo": 10,
+		"branchType": "0",
+		"id": 10,
+		"treeLevel": "2",
+		"upBranchNo": 1
+	},
+	{
+		"branchName": "考核处",
+		"branchNo": 11,
+		"branchType": "0",
+		"id": 11,
+		"treeLevel": "2",
+		"upBranchNo": 1
+	},
+	{
+		"branchName": "温州市城市建设投资集团有限公司",
+		"branchNo": 21,
+		"branchType": "2",
+		"id": 21,
+		"treeLevel": "2",
+		"upBranchNo": 1
+	},
+	{
+		"branchName": "温州市公用事业投资集团有限公司",
+		"branchNo": 22,
+		"branchType": "2",
+		"id": 22,
+		"treeLevel": "2",
+		"upBranchNo": 1
+	},
+	{
+		"branchName": "温州市现代服务业投资集团有限公司",
+		"branchNo": 23,
+		"branchType": "2",
+		"id": 23,
+		"treeLevel": "2",
+		"upBranchNo": 1
+	},
+	{
+		"branchName": "温州市工业投资集团有限公司",
+		"branchNo": 24,
+		"branchType": "2",
+		"id": 24,
+		"treeLevel": "2",
+		"upBranchNo": 1
+	},
+	{
+		"branchName": "温州市金融投资集团有限公司",
+		"branchNo": 25,
+		"branchType": "2",
+		"id": 25,
+		"treeLevel": "2",
+		"upBranchNo": 1
+	},
+	{
+		"branchName": "温州市交通运输集团有限公司",
+		"branchNo": 26,
+		"branchType": "2",
+		"id": 26,
+		"treeLevel": "2",
+		"upBranchNo": 1
+	},
+	{
+		"branchName": "温州市交通投资集团有限公司",
+		"branchNo": 27,
+		"branchType": "2",
+		"id": 27,
+		"treeLevel": "2",
+		"upBranchNo": 1
+	},
+	{
+		"branchName": "温州建设集团有限公司",
+		"branchNo": 28,
+		"branchType": "2",
+		"id": 28,
+		"treeLevel": "2",
+		"upBranchNo": 1
+	},
+	{
+		"branchName": "温州机场集团有限公司",
+		"branchNo": 29,
+		"branchType": "2",
+		"id": 29,
+		"treeLevel": "2",
+		"upBranchNo": 1
+	},
+	{
+		"branchName": "温州港集团有限公司",
+		"branchNo": 30,
+		"branchType": "2",
+		"id": 30,
+		"treeLevel": "2",
+		"upBranchNo": 1
+	},
+	{
+		"branchName": "温州市铁路与轨道交通投资集团有限公司",
+		"branchNo": 31,
+		"branchType": "2",
+		"id": 31,
+		"treeLevel": "2",
+		"upBranchNo": 1
+	},
+	{
+		"branchName": "温州银行股份有限公司",
+		"branchNo": 32,
+		"branchType": "2",
+		"id": 32,
+		"treeLevel": "2",
+		"upBranchNo": 1
+	},
+	{
+		"branchName": "温州市农业发展投资集团有限公司",
+		"branchNo": 33,
+		"branchType": "2",
+		"id": 33,
+		"treeLevel": "2",
+		"upBranchNo": 1
+	},
+	{
+		"branchName": "温州市名城建设投资集团有限公司",
+		"branchNo": 34,
+		"branchType": "2",
+		"id": 34,
+		"treeLevel": "2",
+		"upBranchNo": 1
+	}
+]
