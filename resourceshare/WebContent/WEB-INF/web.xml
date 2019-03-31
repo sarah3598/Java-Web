@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>ResourceShare</display-name>
+  <welcome-file-list>
+    <welcome-file>UserIndexServlet.do</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>UserLoginServlet</servlet-name>
+    <servlet-class>com.servlet.UserLoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserLoginServlet</servlet-name>
+    <url-pattern>/UserLogin.do</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>com.servlet.UserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/User.do</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>UserIndexServlet</servlet-name>
+    <servlet-class>com.servlet.UserIndexServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserIndexServlet</servlet-name>
+    <url-pattern>/UserIndexServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>UserUserServlet</servlet-name>
+    <servlet-class>com.servlet.UserUserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserUserServlet</servlet-name>
+    <url-pattern>/UserUserServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ManagerLoginServlet</servlet-name>
+    <servlet-class>com.servlet.ManagerLoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ManagerLoginServlet</servlet-name>
+    <url-pattern>/ManagerLogin.do</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>VideoServlet</servlet-name>
+    <servlet-class>com.servlet.VideoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>VideoServlet</servlet-name>
+    <url-pattern>/Video.do</url-pattern>
+  </servlet-mapping>
+
+
+ <servlet>
+    <servlet-name>TeacherServlet</servlet-name>
+    <servlet-class>com.servlet.TeacherServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TeacherServlet</servlet-name>
+    <url-pattern>/Teacher.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>TeacherLoginServlet</servlet-name>
+    <servlet-class>com.servlet.TeacherLoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TeacherLoginServlet</servlet-name>
+    <url-pattern>/TeacherLogin.do</url-pattern>
+  </servlet-mapping>
+</web-app>

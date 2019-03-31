@@ -1,0 +1,47 @@
+main{
+	margin-top: 20px;
+}
+main .nearby-person{
+	border: 1px solid #ccc;
+	overflow: hidden;
+	height: 145px;
+	margin-bottom: 15px;
+	padding: 10px;
+}
+.nearby-person img{
+	width: 45%;
+	height: 125px;
+}
+.person-describe{
+	width: 47%;
+	height: 125px;
+	overflow: hidden;
+}
+.person-describe h4{
+	color: #585858;
+	font-weight: bold;
+}
+.person-describe ul{
+	width: 100%;
+	height: 55px;
+	margin-bottom: 0;
+}
+.person-describe ul li{
+	float: left;
+	width: 47%;
+	height: 25px;
+	line-height: 25px;
+}
+.person-describe .btn{
+	width: 100%;
+	background: #6fa2ee;
+	color: #fff;
+	padding:3px 12px;
+}
+.row:nth-child(2n) .person-describe .btn{
+	background-color: #fb98af;
+}
+.container nav{
+	width: 100%;
+	text-align: center;
+}

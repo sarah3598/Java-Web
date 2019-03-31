@@ -1,0 +1,78 @@
+main{
+	margin-top: 20px;
+}
+.thumbnail img{
+	height: 120px;
+	width: 100%;
+}
+.thumbnail p{
+	text-align: center;
+}
+.thumbnail p a{
+	color: #6fa2ee;
+}
+.thumbnail p a i{
+	margin-right: 5px;
+}
+.thumbnail p a:hover{
+	color: #fb98af;
+}
+.application{
+  height: 210px;
+  background-color:#f5f5f5;
+  overflow: hidden;
+}
+
+.application .media-body{
+  color: #a8a8a8;
+}
+.application .media-body a{
+  display: block;
+  color: #282828;
+  font-size: 14px;
+  line-height: 40px;
+}
+.application .media-body a:hover{
+  cursor: pointer;
+  color: #fb98af;
+}
+.publish{
+	width: 100%;
+	height: 235px;
+	overflow: hidden;
+}
+.publish textarea{
+	width: 100%;
+	padding: 5px;
+}
+.publish .publish-btn{
+	width: 150px;
+	background: #6fa2ee;
+	color: #fff;
+}
+
+.col-sm-3 img{
+	width: 100%;
+}
+.recommended{
+	margin-top: 20px;
+	width: 100%;
+	overflow: hidden;
+}
+.recommended .btn{
+	margin-top: 10px;
+	background: #fb98af;
+	color: #fff;
+	width: 40%;
+}
+.recommended span{
+	margin-top: 17px;
+	color: #5f5e5e;
+}
+.recommended span i{
+	margin-right: 5px;
+	font-size: 12px;
+}
+.recommended span:hover{
+	cursor: pointer;
+}

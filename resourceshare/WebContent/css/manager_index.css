@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0px;
+	padding:0px;
+}
+.top_index{
+	background:#0099FF; 
+	width:100%; 
+	height:38px; 
+	color:#FFF; 
+	font-weight:bold; 
+	font-size:18px; 
+	line-height:38px; 
+	font-family:'微软雅黑';
+}
+.top_index a{
+	text-decoration:none;
+}
+.top_admin{
+	width:200px; 
+	height:38px; 
+	float:right;
+}
+.top_quit{
+	background:#0099FF; 
+	width:46px; 
+	height:25px; 
+	border:1px solid #0099FF; 
+	border-radius:5px; 
+	color:#FFF; 
+	font-weight:bold;
+	position:absolute; 
+	z-index:5;
+	margin:-32px 120px;
+}
+.middle{
+	width:100%; 
+	height:580px;
+}
+.middle_menu{
+	background:#0099FF; 
+	width:15%; 
+	height:580px; 
+	float:left;
+	cursor:pointer;
+}
+.middle_right{
+	width:85%; 
+	height:580px; 
+	float:left;
+}
+.middle_menu a{
+	text-decoration:none;
+}
+.middle_index{
+	background:#0099FF; 
+	width:100%; 
+	height:40px; 
+	box-shadow:0px 0px 5px #111;
+}
+.middle_main{
+	height:520px; 
+	width:100%;
+}
+.middle_submit{
+	width:28px;
+}
+.middle_main a{
+	color:#000;
+}
+.middle_main a:hover{
+	text-decoration: underline;
+}
+.index_titlename{
+	height:40px;
+	line-height:40px;
+	margin-left:20px;
+	font-weight:bold;
+	color:#FFF;
+	font-family:'微软雅黑';
+}
+.middle_search{
+	float:right; 
+	margin-right:25px; 
+	margin-top:-35px;
+}
+.middle_num{
+	width:38px;
+	height:20px;
+	padding-left:5px;
+}
+.manager_nav{
+	height:38px;
+	color:#FFF;
+	font-size:13px;
+	font-weight:bold;
+	line-height:36px;
+	padding-left:12px;
+	border-bottom:1px dashed #0099FF;
+}
+.show{
+	display:block;
+}
+.hidden{
+	display:none;
+}
+.show ul li{
+	height:26px;
+	line-height:26px;
+	background:#222;
+	padding-left:40px;
+	font-size:13px;
+}
+.show ul li:hover{
+	background:#C30;
+}
+.search_submit{
+	width:38px;
+	height:24px;
+	background:#C00;
+	color:#FFF;
+	font-weight:bold;
+	border:0px;
+	border-radius:3px;
+	margin-top:-2px;
+}
+.search_form{
+	background:#FFF;
+	height:28px;
+	width:175px;
+}
+.search_text{
+	outline:none;
+	margin:2px 0px 0px 2px;
+	width:125px; 
+	height:24px; 
+	padding-left:5px;
+	border:0px;
+}
+.bottom{
+	padding-top:26px;
+	width:100%;
+	text-align:center;
+	font-size:15px;
+	color:#666;
+}
+.bottom a{
+	text-decoration:none;
+	color:#666;
+}	
+.bottom a:hover{
+	text-decoration:underline;
+}
+a{
+	color:#FFF;
+	text-decoration:underline;
+}

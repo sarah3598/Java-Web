@@ -1,0 +1,81 @@
+body{
+	background: url(../images/bg.jpg) no-repeat;
+}
+
+main{
+	min-height: 260px;
+	background-color: rgba(255,255,255,0.7);
+	border-radius: 15px;
+	margin-top: 160px;
+	padding: 10px 0;
+}
+main form{
+	width: 95%;
+	margin: 20px auto;
+}
+.inputPhone{
+	position: relative;
+}
+.inputPhone input{
+	padding-right: 90px;
+}
+.inputPhone button{
+	position: absolute;
+	right: 20px;
+	top: 5px;
+	width: 85px;
+	height: 25px;
+	line-height: 25px;
+	border: none;
+	background: #ccc;
+	color: #000;
+}
+main .form-horizontal .checkbox{
+	margin-bottom: 10px;
+}
+main .form-horizontal .sign{
+	width: 100%;
+	border-color: #0099FF;
+	color: #fff;
+	background-color: #0099FF;
+}
+.sign:link{
+	background-color: #0099FF;
+	color: #fff;
+}
+.exist{
+	height: 30px;
+	line-height: 30px;
+	text-align: right;
+	font-size: 12px;
+}
+@media screen and (min-width:845px ){
+	.exist{
+		padding-right: 10%;
+	}
+}
+.exist a{
+	color: #6fa2ee;
+}
+.exist a:hover{
+	color: #0099FF;
+}
+footer{
+	margin-top: 40px;
+}
+footer ul{
+	text-align: center;
+}
+footer ul li{
+	border-right: 1px solid #fff;
+}
+footer ul li:last-child{
+	border: none;
+}
+footer ul li a{
+	color: #fff;
+	padding: 0 30px;
+}
+footer ul li a:hover{
+	color: #0099FF;
+}
